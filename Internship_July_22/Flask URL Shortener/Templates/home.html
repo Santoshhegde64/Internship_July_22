@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: #64B5F6;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style = 'color: #fff;text-align: center;'>URL Shortner</h1> <br>
+    <form style="text-align: center; "action="{{url_for('short_function')}}">
+        <label style="color: #fff;" for="">Enter the URL: </label>
+        <input type="text" name="url_name" placeholder="online.innomatics.in"><br><br>
+        <input style="color: #000;"   type="submit" value="Short It !">
+    </form>
+
+   
+    
+</body>
+</html>
